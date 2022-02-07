@@ -7,7 +7,7 @@ pipeline{
         stage("hello-word"){
             steps{
                 echo "hello world from spring boot application"
-                echo "trigger w orks fine  "
+                echo "trigger w orks f ine  "
             }
         }
     }
