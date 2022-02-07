@@ -1,8 +1,10 @@
 pipeline{
     agent any
     stages {
-        stage{
-            echo "hello world from spring boot application"
+        stage("hello-word"){
+            steps{
+                echo "hello world from spring boot application"
+            }
         }
     }
 }
