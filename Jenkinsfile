@@ -6,8 +6,8 @@ pipeline{
     stages {
         stage("hello-word"){
             steps{
-                echo "hello world from spring boot application [dev branch]"
-                echo "trigger w orks f ine  "
+                echo "hello world from spring boot application [prod branch]"
+                echo "trigger works fine "
             }
         }
     }
