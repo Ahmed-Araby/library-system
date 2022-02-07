@@ -13,7 +13,7 @@ public class BooksCtrlMock
     public List<String> getBooks()
     {
         List<String> books = new ArrayList<>();
-        books.add("b1");
+        books.add("b1***");
         books.add("b2");
         return books;
     }
